@@ -1,11 +1,7 @@
-#  GD-MCMC
+#  Langevin Dynamics MCMC for FNN time series
 
 Results: 
-
- ![alt tag](https://github.com/rohitash-chandra/LDMCMC_timeseries/blob/master/2mcmcresults_x2/begin.png)
  
-
- ![alt tag](https://github.com/rohitash-chandra/LDMCMC_timeseries/blob/master/2mcmcresults_x2/proposals.png) 
  
 
  ![alt tag](https://github.com/rohitash-chandra/LDMCMC_timeseries/blob/master/2mcmcresults_x2/mcmcrestrain.png)
