@@ -345,7 +345,7 @@ class MCMC:
 def main():
     for problem in xrange(1, 8):
 
-        path = str(problem)+'mcmcresults_x2'
+        path = str(problem)+'mcmcresults'
         try:
             os.makedirs(path)
         except OSError:
@@ -357,32 +357,15 @@ def main():
         hidden = 5
         input = 4  #
         output = 1
-
-        #problem = 2
+ 
         x = 3
-
-        #if x == 1:
-            #w_limit =  0.05
-            #tau_limit = 0.1
-        #if x == 2:
-            #w_limit =  0.05
-            #tau_limit  = 0.2
+ 
         if x == 3:
             w_limit =  0.02
             tau_limit = 0.2
         #if x == 4:
             #w_limit =  0.02
-            #tau_limit = 0.1
-        #if x == 5:
-            #w_limit =  0.1
-            #tau_limit = 0.1
-        #if x == 6:
-            #w_limit =  0.2
-            #tau_limit =  0.2
-        #if x == 7:
-            #w_limit =  0.03
-            #tau_limit = 0.1
-
+            #tau_limit = 0.1  
 
 
 
