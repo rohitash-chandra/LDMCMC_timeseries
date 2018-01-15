@@ -232,9 +232,7 @@ class MCMC:
         sigma_squared = 25
         nu_1 = 0
         nu_2 = 0
-
-        loadw = np.loadtxt('pos_wmean.txt')
-        print loadw, 'load w from file'
+ 
 
         sigma_diagmat = np.zeros((w_size, w_size))  # for Equation 9 in Ref [Chandra_ICONIP2017]
         np.fill_diagonal(sigma_diagmat, step_w)
