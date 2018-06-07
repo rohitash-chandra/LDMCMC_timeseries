@@ -119,8 +119,8 @@ class Network:
         fx = np.zeros(size)
 
         for i in xrange(0, depth):
-            for i in xrange(0, size):
-                pat = i
+            for j in xrange(0, size):
+                pat = j
                 Input = data[pat, 0:self.Top[0]]
                 Desired = data[pat, self.Top[0]:]
                 self.ForwardPass(Input)
